@@ -1,9 +1,8 @@
-
 # html lang
 language: en
 
 # header
-site_brand_name: Frame.
+site_brand_name: Tyler
 
 logo_image:
   enable: false
@@ -11,8 +10,10 @@ logo_image:
 
 menu:
   Home: /
-  Archive: /archives/
-  Gallery: /categories/gallery/
+  Portfolio: /portfolio/
+  CV: /CV/
+  Why Three9?: /WhyThree9/
+#  Gallery: /categories/gallery/
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -29,13 +30,13 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: Hi, this is Frame. 
-  body: A minimal, elegant hexo theme.
+  title: Welcome to My page! 
+  body: Hello, I am Tyler, I am a current Program Analyst and interested in all things Data Science. Here you can find a link to my CV and Portfolio of analyses I have done in my free time.
   image: /profile_cover.png
 
   links:
     Home: /
-    Blogs: /archives/
+    Past Analyses: /portfolio/
 
 # footer
 footer:
@@ -51,7 +52,7 @@ footer:
     content:
 
 # color mode: default / classic / dark
-color_mode: default
+color_mode: dark
 
 # mathjax setting
 # note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
