@@ -11,7 +11,6 @@ logo_image:
 menu:
   Home: /
   Portfolio: /portfolio/
-  CV: /CV/
   Why Three9?: /WhyThree9/
 #  Gallery: /categories/gallery/
 
@@ -35,8 +34,11 @@ profile:
   image: /profile_cover.png
 
   links:
-    Home: /
-    Past Analyses: /portfolio/
+    Portfolio: /portfolio/ 
+    GitHub: https://github.com/tyler-dev333
+    LinkedIn: https://linkedin.com/in/tcstrouth
+    E-Mail Me!: mailto:tcstrouth@three9.us
+    
 
 # footer
 footer:
@@ -72,6 +74,11 @@ disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publis
   enable: false
   disqus_url: # your diqsuq url or shortname
   language: 'en'
+
+socials:
+  github: true
+  linkedin: true
+  email: true
 
 # local search
 local_search:

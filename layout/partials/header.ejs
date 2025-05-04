@@ -1,3 +1,6 @@
+<style>
+  <%- fa_css() %>
+</style>
 <div class="header">
   <div class="flex-container">
     <div class="header-inner">
@@ -26,6 +29,21 @@
               </li> 
             <% }%>       
           <% }); %>
+          <% if (theme.socials.github) {%>
+            <li class="menu-item github">
+              <a href="https://github.com/tyler-dev333"> <%-fa_inline('github', {prefix: 'fab'}) %></a>
+            </li>
+          <% } %>
+          <% if (theme.socials.linkedin) {%>
+            <li class="menu-item linkedin">
+              <a href="https://linkedin.com/in/tcstrouth"> <%-fa_inline('linkedin', {prefix: 'fab'}) %></a>
+            </li>
+          <% } %>
+          <% if (theme.socials.email) {%>
+            <li class="menu-item email">
+              <a href="mailto:tcstrouth@three9.us"> <%-fa_inline('envelope', {prefix: 'fas'}) %></a>
+            </li>
+          <% } %>
           <% if (theme.local_search.enable) {%>
             <li class="menu-item search-btn">
               <a href="#">Search</a>
